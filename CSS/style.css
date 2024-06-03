@@ -1,0 +1,35 @@
+img {
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+}
+.gallery ul{
+    flex-basis: 25%;
+}
+.gallery img{
+    max-width: 100%;
+    aspect-ratio: 1;
+  border-radius: 5px;
+}
+
+.frameImg {
+    height: 30%;
+    padding: 50px;
+    display: inline-block;
+    width:100%;
+}
+.frameImg img{
+    max-width:80%; 
+    max-height:800px;
+}
+
+.frameImg h1 {
+    color: white;
+}
